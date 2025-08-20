@@ -13,6 +13,7 @@ test("Facebook Test", async ({ page }) => {
   console.log("Facebook Title: ", await page.title());
   console.log("Facebook URL: ", page.url());
   expect(await page.title()).toEqual("Facebook – log in or sign up");
+  console.log("facebook logs")
 });
 
 test("X Test", async ({ page }) => {
@@ -20,6 +21,7 @@ test("X Test", async ({ page }) => {
   console.log("X Title: ", await page.title());
   console.log("X URL: ", page.url());
   expect(await page.title()).toEqual("X. It’s what’s happening / X");
+  console.log("X logs")
 });
 
 test("Youtube Test", async ({ page }) => {
@@ -27,4 +29,5 @@ test("Youtube Test", async ({ page }) => {
   console.log("Youtube Title: ", await page.title());
   console.log("Youtube URL: ", page.url());
   expect(await page.title()).toEqual("YouTube");
+  console.log("Youtube logs")
 });
