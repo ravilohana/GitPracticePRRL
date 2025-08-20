@@ -5,7 +5,7 @@ test("Google Test", async ({ page }) => {
   console.log("Google Title: ", await page.title());
   console.log("Google URL: ", page.url());
   expect(await page.title()).toEqual("Google");
-  console.log("Some console log for viewing PR");
+  console.log("Some console log for viewing PR-- update logs");
 });
 
 test("Facebook Test", async ({ page }) => {
